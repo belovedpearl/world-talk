@@ -1,1 +1,1 @@
-web: gunicorn world-talk.wsgi
+web: gunicorn codestar.wsgi
