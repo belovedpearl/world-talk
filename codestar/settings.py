@@ -32,7 +32,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-belovedpearl-worldtalk-3cjb4tiaam0.ws-eu104.gitpod.io',
-    'code-talk-blog.herokuapp.com', 'localhost'
+    'code-talk-blog-241610254ba9.herokuapp.com', 'localhost'
 ]
 
 
