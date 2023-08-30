@@ -1,6 +1,6 @@
-{% extends 'base.html' %}
+{% extends 'base.html' %}{% block content %}
 {% load crispy_forms_tags %}
- {% block content %}
+ 
 
 <div class="masthead">
     <div class="container">
@@ -73,7 +73,7 @@
                         </span> wrote:
                     </p>
                     <!-- The body of the comment goes before the | -->
-                    {{  comments.body | linebreaks }}
+                    {{  comment.body | linebreaks }}
                 </div>
                 <!-- Our for loop ends here -->
                 {% endfor %}
@@ -87,6 +87,7 @@
                     Your comment is awaiting approval
                 </div>
                 {% else %}
+                
                 {% if user.is_authenticated %}
 
                 <h3>Leave a comment:</h3>
